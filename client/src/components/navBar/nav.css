@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 0; /* Ajusta el margen superior a 0 para pegar el Navbar al borde superior */
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px; /* Forma circular */
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease; /* Agrega una transición de color al botón */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la barra de búsqueda */
+.search-bar {
+    flex: 1; /* La barra de búsqueda toma el espacio disponible */
+    margin-right: 20px; /* Espacio a la derecha para separarla del botón Home */
+}

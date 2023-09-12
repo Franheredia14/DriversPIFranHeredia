@@ -1,0 +1,79 @@
+.cards-container {
+    width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 75vh;
+    overflow-y: auto;
+  }
+  
+  .cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    background-color: #01050a; /* Cambia el color aquí */
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pagination-button:hover {
+    background-color: #0056b3; /* Cambia el color de hover aquí */
+    transform: scale(1.1);
+  }
+  
+  .pagination-button:disabled {
+    background-color: #626060;
+    cursor: not-allowed;
+  }
+  
+  .pagination-button.active {
+    background-color: transparent;
+  }
+  
+  .start-button,
+  .end-button {
+    background-color: #e53e3e; /* Cambia el color aquí */
+    color: #fff;
+    width: 80px; /* Ajusta el ancho según lo necesario */
+    font-size: 18px; /* Ajusta el tamaño de fuente según lo necesario */
+    size: 80px;
+  }
+  
+  .previous-button,
+  .next-button {
+    background-color: #6b46c1; /* Cambia el color aquí */
+    color: #fff;
+    width: 80px; /* Ajusta el ancho según lo necesario */
+    font-size: 18px; /* Ajusta el tamaño de fuente según lo necesario */
+  }
+
+
+
+/* .cards-container {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+} */

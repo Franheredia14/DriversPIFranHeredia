@@ -1,0 +1,77 @@
+.card-style {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    -moz-backface-visibility: hidden;
+    transform: translate(0);
+    transition: 0.25s ease-out;
+    max-width: 20vw;
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-style:hover {
+    transform: scale(1.05);
+    border: 2px solid #007bff; /* Efecto en el borde al pasar el cursor */
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-container {
+    flex: 2;
+    padding: 10px;
+}
+
+.name {
+    color: #fff; /* Cambio de color de las letras para que sean legibles en un fondo oscuro */
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.surname {
+    color: #eee; /* Cambio de color de las letras para que sean legibles en un fondo oscuro */
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.teams {
+    color: #ccc; /* Cambio de color de las letras para que sean legibles en un fondo oscuro */
+    font-size: 14px;
+}
+
+
+
+/* .card-style img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.card-style {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 102, 3);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-backface-visibility: hidden;
+    transform: translate(0);
+    transition: 0.25s ease-out;
+    max-width: 10vw;
+};
+
+.card-style:hover {
+    transform: scale(1.05);
+}; */
